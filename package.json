@@ -1,10 +1,10 @@
 {
   "name": "mk-co-xlsx",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A co-based pull Excel XML file reader",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --harmony"
+    "test": "mocha --harmony test/test.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
   "dependencies": {
     "co-fs": "^1.2.0",
     "debug": "^2.1.3",
-    "mk-co-xml": "git://github.com/mkleehammer/mk-co-xml.git#1.0.1",
+    "mk-co-xml": "git://github.com/mkleehammer/mk-co-xml.git#2.0.0",
     "moment": "^2.10.2"
   },
   "devDependencies": {

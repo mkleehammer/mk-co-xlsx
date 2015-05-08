@@ -25,7 +25,7 @@ function* main() {
     process.exit(1);
   }
 
-  var reader = new ExcelReader();
+  var reader = new ExcelReader({ skipEmptyRows: false });
   var fqn = path.join(__dirname, program.args[0]);
   yield reader.fromFilename(fqn);
 
