@@ -19,10 +19,11 @@
   "dependencies": {
     "co-fs": "^1.2.0",
     "debug": "^2.1.3",
-    "mk-co-xml" : "git://github.com/mkleehammer/mk-co-xml#1.0.0",
+    "mk-co-xml": "git://github.com/mkleehammer/mk-co-xml.git#1.0.1",
     "moment": "^2.10.2"
   },
   "devDependencies": {
-    "co": "^4.5.4"
+    "co": "^4.5.4",
+    "commander": "^2.8.1"
   }
 }
