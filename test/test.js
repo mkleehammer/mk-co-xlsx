@@ -28,19 +28,19 @@ describe('basic', function() {
 
       var sheet = yield reader.getSheet(1); // (2nd sheet)
 
-      var got = null;
+      var row = null;
 
       for (var i = 0; i < expectedRows.length; i++) {
         var expected = expectedRows[i];
-        got = yield sheet.read();
+        row = yield sheet.read();
 
-        if (got === null && expected === null)
+        if (row === null && expected === null)
           break;
 
-        assert.deepEqual(got.cols, expected);
+        assert.deepEqual(row, expected);
       }
 
-      assert(got == null);
+      assert(row == null);
     })
       .then(function() {
         done();
