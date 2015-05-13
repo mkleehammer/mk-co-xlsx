@@ -1,6 +1,6 @@
 {
   "name": "mk-co-xlsx",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A co-based pull Excel XML file reader",
   "main": "index.js",
   "scripts": {
